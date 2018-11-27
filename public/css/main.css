@@ -12,6 +12,7 @@
   color: white;
   flex: 1;
   padding: 15px 40px;
+  width: 100%;
 }
 
 
@@ -42,4 +43,8 @@
 .planets-menu a:hover {
   background-color: black;
   color: white;
+}
+
+img {
+  position:fixed;
 }
