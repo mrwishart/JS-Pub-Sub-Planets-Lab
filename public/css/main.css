@@ -1,0 +1,45 @@
+.main-layout {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.planets-menu {
+
+}
+
+.planet-details {
+  background-color: black;
+  color: white;
+  flex: 1;
+  padding: 15px 40px;
+}
+
+
+.title-bar {
+  display: block;
+  width: 100%;
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.title-bar, .planets-menu {
+  background-color: pink;
+}
+
+.planets-menu {
+  height: 100%;
+  padding-bottom: 100%;
+}
+
+.planet-menu-item {
+  display: block;
+  font-size: larger;
+  padding: 5px 10px;
+}
+
+.planets-menu a:hover {
+  background-color: black;
+  color: white;
+}
